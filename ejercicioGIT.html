@@ -3,6 +3,11 @@
     <meta charset="UTF-8">
     <title>.: Examen :.</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+        p#no{
+            background-color: rgb(150, 39, 39);
+        }
+    </style>
 </head>
 <body>
     <div id="container">
@@ -17,11 +22,11 @@
             <ol>
                 <li>
                     <h3>¿Que es un sistema de control de versiones?</h3>
-                    
+                    <p id="no">Es un sistema que registra los cambios que se realizan en un archivo o en un conjunto de archivos a lo largo del tiempo para que puedas recuperar versiones específicas más adelante </p>
                 </li>
                 <li>
                     <h3>¿Cual es la diferencia entre git y github?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Git es la herramienta para realizar el seguimiento de los cambios, mientras que GitHub es el lugar para almacenar los proyectos y trabajar en equipo</p>
                 </li>
                 <li>
                     <h3>¿Cómo creo una rama en git?</h3>
@@ -30,51 +35,63 @@
                 <li>
                     <h3>¿Cómo clono un repositorio?</h3>
                     1º Nos metemos en el repositorio que queramos copiar
-                    2º
+                   <p>2º Luego hacemos un fork en el repositorio que hayamos copiado</p> 
+                    3º Le damos a code y copiamos el SSH y pones en la terminal el comando "git clone (el SSH)"
                 </li>
                 <li>
                     <h3>¿Cómo puedo bajar los ultimos cambios de un repositorio?</h3>
-                    [Pon tu respuesta]
+                    <p>Debes de escribir los siguientes comando en el siguiente orden</p>
+                    <p>1º git status</p>
+                    <p>2º git add .</p>
+                    <p>3º git commit -m "commentario"</p>
+                    <p>4º git push</p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo gener un tag?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Haz clic en tu cuenta, arriba a la izquierda, y ve a Configuración.</p>
+                    <p id="no">En el apartado "Más", haz clic en Gestionar tags.</p>
+                    <p id="no">Haz clic en "+ Añadir tag".</p>
+                    <p id="no">Asigna un nombre al nuevo tag, y pulsa el botón "Crear".</p>
                 </li>
                 <li>
                     <h3>Cómo hago una mezcla de ramas?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Use git checkout para cambiar a la rama en la que desea fusionar. Esta rama suele ser la rama principal. A continuación, use git merge y especifique el nombre de la otra rama que desea incorporar a esta rama
+                    </p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo moverme a un commit especifico?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Puedes volver a un commit anterior mediante git reset --soft (o --hard, aunque es peligroso :-P) <"commit-adonde-regresas">, o mediante git checkout <"commit-adonde-regresas">
+                    </p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar una rama?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">En el menú Git de la barra de menús, elija Administrar ramas. En Ramas, haga clic con el botón derecho en una rama y seleccione Eliminar
+                    </p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo borrar un tag?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Al usar la opción -d y un identificador de etiqueta de git tag 
+                    </p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo ver los cambios que estan por enviarse al repositorio?</h3>
-                    [Pon tu respuesta]
+                    Con el comando git status
                 </li>
                 <li>
                     <h3>¿Para que sirve el comando <em>git remote -v?</em></h3>
-                    [Pon tu respuesta]
+                    Administra conexiones remotas
                 </li>
                 <li>
                     <h3>¿Cómo le digo a git cual es mi email y correo?</h3>
-                    [Pon tu respuesta]
+                    <p>Tienes que poner el comando: git config --global -user.email "[correo]"</p>
                 </li>
                 <li>
                     <h3>¿Cuales son los pasos para conectar git con github?</h3>
-                    [Pon tu respuesta]
+                    <p>Debes de generar una clave SSH publica</p>
                 </li>
                 <li>
                     <h3>¿Cómo puedo crear un alias en git?</h3>
-                    [Pon tu respuesta]
+                    <p id="no">Los alias de Git se crean mediante el comando git config </p>
                 </li>
             </ol>
         </div>
